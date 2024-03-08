@@ -1,0 +1,11 @@
+
+int[] intArray = new int[] { 9, 2, 4, 3, 1, 5 };
+
+Sorts the array in ascending order.
+Array.Sort(intArray); => { 1, 2, 3, 4, 5, 9 };
+
+Sorts the array in descending order.
+Array.Reverse(intArray); => { 9, 5, 4, 3, 2, 1 };
+
+Find the array length.
+intArray.Length
