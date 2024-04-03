@@ -11,11 +11,12 @@ namespace TwoSum
         static void Main(string[] args)
         {
             int[] nums = { 2, 7, 11, 15 };
-            int target = 9;
+            int target = 26;
 
             int[] result = TwoSum(nums, target);
-
+            
             Console.WriteLine($"Indices: [{result[0]}, {result[1]}]");
+            Console.ReadLine();
         }
 
         static int[] TwoSum(int[] nums, int target)
